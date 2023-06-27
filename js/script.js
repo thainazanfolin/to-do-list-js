@@ -9,5 +9,17 @@ const cancelEditBtn = document.querySelector("#cancel-edit-btn");
 
 
 //funções
-
+const saveTodo = (Text) => {
+    
+}
 //eventos
+todoForm.addEventListener("submit", (e) =>{
+
+    e.preventDefault;
+    const inputValue = todoInput.value
+
+    if (inputValue){
+         saveTodo(inputValue);
+    }
+
+})
