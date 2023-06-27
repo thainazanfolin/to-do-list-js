@@ -29,8 +29,8 @@ button {
 }
 
 button:hover {
-    background-color: #102f5e
-    color: #FFF
+    background-color: #102f5e;
+    color: #FFF;
 }
 
 button:hover > i{ /*i refere-se ao icone */
@@ -38,7 +38,7 @@ button:hover > i{ /*i refere-se ao icone */
 }
 
 button i{
-    color: #102f5e
+    color: #102f5e;
     pointer-events: none;
 }
 
@@ -82,4 +82,64 @@ input, select{
 
 #cancel-edit-btn{
     margin-top: 1rem;
+}
+
+#toolbar {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+
+#toolbar h4{
+    margin-bottom: .5rem;
+
+}
+
+#search {
+    border-right: 1px solid #DDD;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+#search form{
+    display: flex;
+}
+
+#search-input{
+    width: 100%;
+    margin-right: 3rem;
+
+}
+
+#filter{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+#filter-select{
+    flex: 1;
+}
+
+.todo-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #FFF;
+    transition: .3s;
+
+}
+
+.todo-list h3{
+    flex: 1;
+    font-size: .9rem;
+
+}
+
+.todo-list button{
+    margin-left: 0.4rem;
 }
