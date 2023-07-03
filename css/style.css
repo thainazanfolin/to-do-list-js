@@ -18,7 +18,7 @@ button {
     background-color: #fdfdfd;
     color:#102f5e;
     border: 1px solid #102f5e;
-    padding: .3rem, .6rem;
+    padding: .25rem;
     font-size: 1rem;
     cursor: pointer;
     display: flex;
@@ -124,7 +124,7 @@ input, select{
     flex: 1;
 }
 
-.todo-list{
+#todo-list{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -132,14 +132,15 @@ input, select{
     border-bottom: 1px solid #FFF;
     transition: .3s;
 
+
 }
 
-.todo-list h3{
+#todo-list h3{
     flex: 1;
     font-size: .9rem;
 
 }
 
-.todo-list button{
+#todo-list button{
     margin-left: 0.4rem;
 }
